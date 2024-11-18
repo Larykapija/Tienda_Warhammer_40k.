@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer 40,000 - El Grimdark del Futuro</title>
+    <link rel="icon" type="image/jpg" href="/Imagenes/Warhammer_40k_logotipo_2.png"/>
+    <link rel="stylesheet" href="../css/estilo_formulario.css" type="text/css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="../Index.html">Index</a>
+            <a href="./Introduccion.html">Introducción</a>
+            <a href="./Facciones.html">Facciones</a>
+            <a href="./Galeria.html">Galería</a>
+            <a href="./Comprar.html">Comprar</a>
+            <i><strong><u><a href="./Formulario.html">Formulario</a></u></strong></i>
+            <a href="./Contacto.html">Contacto</a>
+        </nav>
+    </header>
+    
+    <section id="contacto" class="contacto warhammer-contacto">
+        <div class="contenedor">
+            <h2>Contacto: Comunícate con el Imperio</h2>
+            <p>¿Tienes preguntas, sugerencias o deseas unirte a nuestras filas? Envía tu mensaje al alto mando del Imperio usando el formulario a continuación.</p>
+            
+            <div class="contacto-contenido">
+                <!-- Información de Contacto -->
+                <div class="info-contacto">
+                    <h3>Información de la Fortaleza</h3>
+                    <p><strong>Fortaleza:</strong> Terra, Segmentum Solar</p>
+                    <p><strong>Vox-canal:</strong> +123 456 7890</p>
+                    <p><strong>Email:</strong> contacto@imperium40k.com</p>
+                </div>
+            </div>
+
+            <h2>Contacta con el Imperio</h2>
+            <div class="contact-container">
+                <p class="contact-description">
+                    Comuníquese con el Imperio. Envíenos sus consultas o visite nuestra sede para jurar lealtad al Emperador.
+                </p>
+                <form action="/enviar_mensaje" method="POST">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre de batalla" required pattern="[A-Za-z\s]+" title="El nombre solo puede contener letras y espacios">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Tu dirección de correo electrónico" required title="Debe ser un correo válido">
+
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto de tu mensaje" required>
+
+                    <label for="privacidad">Aceptas las condiciones de privacidad</label>
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                    <input type="submit" value="Enviar al Alto Mando">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Warhammer 40K. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

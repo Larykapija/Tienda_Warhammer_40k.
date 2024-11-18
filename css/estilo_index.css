@@ -1,0 +1,248 @@
+body {
+    font-family: 'Lora', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+header {
+    background-color: #0d0d0d;
+    background-size: cover;
+    background-position: center;
+    color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 5px solid #ff0000;
+}   
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px #000;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #ff0000;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.history p {
+    margin-bottom: 20px;
+}
+.factions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.faction {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 30%;
+}
+.faction h3 {
+    margin: 0 0 10px;
+    color: #ff0000;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro translúcido */
+    text-align: center;
+}
+
+/* Imagen ampliada en el centro de la pantalla */
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 50px;
+}
+
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada1:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada2:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada3:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada4:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada5:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada6:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada7:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/* Mostrar la imagen cuando el ancla es el objetivo */
+#imgAmpliada8:target {
+    display: block;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.close:hover {
+    color: #bbb;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #202020;
+    color: white;
+    border-top: 5px solid #ff0000;
+}
+.ImagenPortada {
+    max-width: 100%; /* Se ajusta al ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
